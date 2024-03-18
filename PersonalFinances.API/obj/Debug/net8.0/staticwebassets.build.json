@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Vkoqmm45VOf2DTMQZtd27iiDtH/WIc1nsE9IhT2WI/A=",
+  "Source": "PersonalFinances.API",
+  "BasePath": "_content/PersonalFinances.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

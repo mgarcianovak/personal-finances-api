@@ -1,0 +1,16 @@
+GET http://localhost:5089/transactions
+
+###
+GET http://localhost:5089/transactions/4
+
+###
+POST http://localhost:5089/transactions
+Content-Type: application/json
+
+{
+    "amount": 10000,
+    "categoryid": 1,
+    "accountid": 1,
+    "date": "2024-03-12",
+    "observation": "PRIME"
+}
