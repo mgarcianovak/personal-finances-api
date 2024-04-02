@@ -1,0 +1,23 @@
+GET http://localhost:5089/categories
+
+###
+GET http://localhost:5089/categories/1
+
+###
+POST http://localhost:5089/categories
+Content-Type: application/json
+
+{
+    "name": "Mamá"
+}
+
+###
+PUT http://localhost:5089/categories/6
+Content-Type: application/json
+
+{
+    "name": "Ajuste"
+}
+
+###
+DELETE http://localhost:5089/categories/6

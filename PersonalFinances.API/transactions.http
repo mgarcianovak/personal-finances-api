@@ -1,0 +1,29 @@
+GET http://localhost:5089/transactions
+
+###
+GET http://localhost:5089/transactions/7
+
+###
+POST http://localhost:5089/transactions
+Content-Type: application/json
+
+{
+    "amount": 500,
+    "categoryId": 3,
+    "date": "2024-03-12",
+    "observation": "CARAMELOS"
+}
+
+###
+PUT http://localhost:5089/transactions/7
+Content-Type: application/json
+
+{
+    "amount": 20000,
+    "categoryId": 5,
+    "date": "2024-03-12",
+    "observation": "Marzo"
+}
+
+###
+DELETE http://localhost:5089/transactions/7
